@@ -1,0 +1,30 @@
+h1 {
+    font-family: Arial;
+}
+
+#map {
+    height: 75%;
+  }
+
+table {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
