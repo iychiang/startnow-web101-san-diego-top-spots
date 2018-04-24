@@ -1,16 +1,21 @@
 h1 {
     font-family: Arial;
+    margin-left: 30px;
 }
+
 
 #map {
     height: 75%;
+    width: 90%;
+    margin-left: 30px;
   }
 
 table {
     font-family: arial, sans-serif;
     font-size: 13px;
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
+    margin-left: 30px;
 }
 
 td, th {
@@ -19,8 +24,21 @@ td, th {
     padding: 6px;
 }
 
+
+th {
+    font-size: 16px;    
+}
+
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+tr td:nth-child(2) {
+    width: 60%;
+}
+ 
+tr td:nth-child(3) {
+    width: 15%;
 }
 
 html, body {
